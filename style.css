@@ -1,0 +1,330 @@
+body {
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Saira');
+
+
+
+
+.header {
+    width: 100%;
+    height: 5vw;
+    background: #ffb76b;
+    background: -moz-linear-gradient(top, #ffb76b 0%, #ff8114 65%, #ff8411 65%, #ff7c00 76%, #ff7c00 91%, #ff7f04 100%);
+    background: -webkit-linear-gradient(top, #ffb76b 0%,#ff8114 65%,#ff8411 65%,#ff7c00 76%,#ff7c00 91%,#ff7f04 100%);
+    background: linear-gradient(to bottom, #ffb76b 0%,#ff8114 65%,#ff8411 65%,#ff7c00 76%,#ff7c00 91%,#ff7f04 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 );
+
+
+}
+
+.main {
+    width: 100%;
+    background: rgba(253, 253, 254, 0.94);
+    background-image: url(./img/background-3.jpg);
+    background-blend-mode: overlay;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 12vw;
+    color: #FFF;
+    display: inline-block;
+    background: #ffb76b;
+    background: -moz-linear-gradient(top, #ffb76b 0%, #ff8114 65%, #ff8411 65%, #ff7c00 76%, #ff7c00 91%, #ff7f04 100%);
+    background: -webkit-linear-gradient(top, #ffb76b 0%,#ff8114 65%,#ff8411 65%,#ff7c00 76%,#ff7c00 91%,#ff7f04 100%);
+    background: linear-gradient(to bottom, #ffb76b 0%,#ff8114 65%,#ff8411 65%,#ff7c00 76%,#ff7c00 91%,#ff7f04 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 );
+
+
+}
+
+.footer a {
+    color: #FFF;
+}
+
+.header li {
+    list-style-type: none;
+    float: left;
+    padding: 35px;
+}
+
+.header li a:hover {
+    color: #ffe5cb;
+}
+
+.header li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Saira', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+ul.menu {
+    margin: 0px 0px 0px 35px;
+}
+
+body {
+    font-family: 'Saira', sans-serif;
+    font-size: 20px;
+}
+
+td {
+    padding: 10px 40px 40px 40px;
+    vertical-align: top;
+}
+
+th {
+    padding: 0px 40px 0px 40px;
+}
+
+img.nieuws_image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    height: 400px;
+}
+
+ul.sitelinks a {
+    text-decoration: none;
+}
+
+ul.sitelinks {
+    list-style: none;
+    padding: 45px 0px 0px 45px;
+    margin: 0px 0px 0px 67px;
+    width: 300px;
+    float: left;
+}
+
+img.footer_image {
+    width: 155px;
+    height: auto;
+    padding: 45px 0px 0px 45px;
+    float: right;
+    margin-right: 105px;
+}
+
+p.copyright_p {
+    margin: auto;
+    width: 300px;
+}
+
+.mainfoto img {
+    width: 40%;
+    margin: 5%;
+    float: left;
+    height: 443px;
+}
+
+.agendaconcerten {
+    margin: 5%;
+    float: right;
+}
+
+.agendaconcerten {
+    float: right;
+    margin-top: 5%;
+    margin-right: 6%;
+    background: rgb(255, 171, 88);
+    color: #fff;
+    padding: 1.8%;
+    border-radius: 1%;
+    width: 35%;
+    height: 375px
+}
+
+.agendaconcerten a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.concertenfotoblok1 {
+    display: inline-block;
+}
+
+
+.agendaconcertentxt p {
+    margin-left: 62%;
+    margin-top: 4%;
+    margin-bottom: -4%;
+}
+
+.agendaconcertentxt h1 {
+    margin-left: 63%;
+}
+
+.concertenfotoblok1 img {
+    width: 15%;
+    padding: 1.8%;
+    float: left;
+    margin: 0%;
+    height: 225px;
+}
+
+.concertenfotoblok1 h1 {
+    float: left;
+    padding: 5%;
+}
+
+
+
+.concert1blok img {
+    width: 25%;
+    height: 310px;
+    padding: 4%;
+}
+
+
+.concertimg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.concert1blok h2 {
+    margin-top: 5%;
+}
+
+.concertblok1 img {
+    width: 450px;
+    height: 320px;
+}
+
+td.concerttxt1 {
+    padding-left: 2px;
+    padding-right: 1px;
+}
+
+.concertvideo iframe {
+    margin-top: 1%;
+}
+
+.Googlemaps iframe {
+    width: 70% !important;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.adresgegevens {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+}
+
+form#contact_form {
+    width: 100%;
+}
+
+input#submit_button {
+    padding: 5%;
+    margin: 1%;
+    background: #ffa44d;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight:600;
+}
+
+form#contact_form .row {
+    padding: 1%;
+}
+
+input#name {
+    width: 100%;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+input#email {
+    width: 100%;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+input#telefoon {
+    width: 100%;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+textarea#message {
+    width: 100%;
+    border-radius: 5px;
+    background: #ffffff;
+}
+
+.div_33 {
+    width: 45%;
+    float: left;
+}
+
+.div_66 {
+    width: 55%;
+    float: left;
+}
+
+.main_inner {
+    padding: 20px 70px 70px 70px;
+}
+
+img.sport_grid_img {
+    width: 30%;
+    padding: 1%;
+}
+
+.sport_page_img {
+    width: 100%;
+    height: 430px;
+}
+
+img.sport_stad_img {
+    width: 95%;
+    height: 430px;
+    margin: auto;
+    display: block;
+}
+
+.div_100 {
+    clear: both;
+}
+
+.div_100_30 {
+    float: left;
+    width: 24%;
+    padding-right: 0.96%;
+}
+
+img.sport_div_img {
+    width: 90%;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: -20px;
+}
+
+h2.tussenstand_h2 {
+    margin: 0px;
+    position: relative;
+    top: -35px;
+}
+
+.div_100 {
+    clear: both;
+    margin-top: 30px;
+    display: inline-block;
+    width: 100%;
+}
+img.grid{
+    width: 40%;
+    padding: 1%;
+}
+.div_food{
+   margin-left: 40px;
+}
